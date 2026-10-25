@@ -4,6 +4,10 @@
 
 不安装 G HUB、不装内核驱动、不跑后台服务、不用 Electron。单个 GUI 进程，关闭窗口后缩到托盘。
 
+## 下载
+
+从 [GitHub Releases](https://github.com/Trrr-creator/GhubLite/releases/latest) 下载 `GhubLite-0.1.0-win-x64.zip`，解压后运行 `GhubLite.exe`。需要 .NET 10 Desktop Runtime；也可以按下方“构建”自行编译。
+
 ![鼠标](docs/mouse.png)
 
 ## 功能
@@ -33,7 +37,7 @@
 
 ## 快速开始
 
-1. 运行 `dist\GhubLite\GhubLite.exe`
+1. 运行 `GhubLite.exe`（Release 包，或本地 `dist\GhubLite\GhubLite.exe`）
 2. 首次启动会读取鼠标的 5 个板载 Profile
 3. 在「鼠标」页选择配置，拖动 DPI 滑块或点击 DPI/回报率数字：鼠标立即生效，约 1 秒后自动写入板载，并弹出「修改成功」
    - 程序运行时会切到 **HOST 模式**，这样 `0x2201/0x8060` 才真正控制传感器；退出时恢复 ONBOARD 模式
