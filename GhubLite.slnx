@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/GhubLite.App/GhubLite.App.csproj" />
+    <Project Path="src/GhubLite.Cli/GhubLite.Cli.csproj" />
+    <Project Path="src/GhubLite.Core/GhubLite.Core.csproj" />
+  </Folder>
+</Solution>
